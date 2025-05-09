@@ -1,0 +1,133 @@
+/* Risk Assessment Styles */
+.risk-levels {
+    margin-top: 1rem;
+}
+
+.risk-factor {
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.factor-name {
+    font-weight: 500;
+    color: #495057;
+}
+
+.risk-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.risk-low {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.risk-medium {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.risk-high {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Recommendations Styles */
+.recommendations {
+    margin-top: 1rem;
+}
+
+.recommendation-type {
+    margin-bottom: 1.5rem;
+}
+
+.recommendation-type h5 {
+    color: #495057;
+    margin-bottom: 0.75rem;
+}
+
+.recommendation-type ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.recommendation-type li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.status-completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-overdue {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Chart Container Styles */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1rem;
+}
+
+.card-header h3, .card-header h4 {
+    margin: 0;
+    color: #212529;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .risk-factor, .recommendation-type li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .risk-badge, .status-badge {
+        margin-top: 0.5rem;
+    }
+    
+    canvas {
+        height: 250px !important;
+    }
+} 

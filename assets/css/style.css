@@ -1,0 +1,152 @@
+/* Custom styles for Health Calendar */
+
+/* General styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Card styles */
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Calendar styles */
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+.calendar-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.calendar-event {
+    background-color: #e7f3ff;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 2px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.calendar-event:hover {
+    background-color: #cce5ff;
+}
+
+/* Health recommendation styles */
+.health-recommendation {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    transition: transform 0.2s;
+}
+
+.health-recommendation:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.health-recommendation h4 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.health-recommendation .frequency {
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+.health-recommendation .info-link {
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .calendar-table {
+        font-size: 0.9em;
+    }
+    
+    .calendar-event {
+        font-size: 0.8em;
+    }
+}
+
+.metric-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.metric-card h6 {
+    color: #495057;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.metric-card .badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+.metric-card .progress {
+    height: 8px;
+    margin-top: 8px;
+}
+
+.local-metrics, .lifestyle-comparison, .preventive-care {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.local-metrics h5, .lifestyle-comparison h5, .preventive-care h5 {
+    color: #0d6efd;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.comparison-section {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.comparison-section h5 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.comparison-section .card {
+    transition: transform 0.2s;
+}
+
+.comparison-section .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+} 

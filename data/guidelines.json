@@ -1,0 +1,86 @@
+{
+    "last_updated": "2024-01-01",
+    "source": "WHO and CDC guidelines (simulated)",
+    "guidelines": [
+        {
+            "sex": "female",
+            "age_min": 50,
+            "age_max": 74,
+            "test": "Mammogram",
+            "frequency": "every 2 years",
+            "info_link": "https://www.who.int/cancer/prevention/diagnosis-screening/breast-cancer/en/"
+        },
+        {
+            "sex": "any",
+            "age_min": 45,
+            "age_max": 75,
+            "test": "Colorectal Cancer Screening",
+            "frequency": "every year",
+            "info_link": "https://www.who.int/cancer/prevention/diagnosis-screening/colorectal-cancer/en/"
+        },
+        {
+            "sex": "any",
+            "age_min": 18,
+            "age_max": 120,
+            "test": "Blood Pressure Check",
+            "frequency": "yearly",
+            "info_link": "https://www.who.int/cardiovascular_diseases/guidelines/hypertension/en/"
+        },
+        {
+            "sex": "any",
+            "age_min": 40,
+            "age_max": 120,
+            "test": "Diabetes Screening",
+            "frequency": "every 3 years",
+            "info_link": "https://www.who.int/diabetes/en/"
+        },
+        {
+            "sex": "female",
+            "age_min": 21,
+            "age_max": 65,
+            "test": "Cervical Cancer Screening",
+            "frequency": "every 3 years",
+            "info_link": "https://www.who.int/cancer/prevention/diagnosis-screening/cervical-cancer/en/"
+        },
+        {
+            "sex": "male",
+            "age_min": 50,
+            "age_max": 70,
+            "test": "Prostate Cancer Screening",
+            "frequency": "discuss with doctor",
+            "info_link": "https://www.who.int/cancer/prevention/diagnosis-screening/prostate-cancer/en/"
+        },
+        {
+            "sex": "any",
+            "age_min": 65,
+            "age_max": 120,
+            "test": "Bone Density Scan",
+            "frequency": "every 2 years",
+            "info_link": "https://www.who.int/nutrition/topics/osteoporosis/en/"
+        },
+        {
+            "sex": "any",
+            "age_min": 20,
+            "age_max": 120,
+            "test": "Cholesterol Check",
+            "frequency": "every 5 years",
+            "info_link": "https://www.who.int/cardiovascular_diseases/guidelines/cholesterol/en/"
+        },
+        {
+            "sex": "any",
+            "age_min": 18,
+            "age_max": 120,
+            "test": "Dental Checkup",
+            "frequency": "every 6 months",
+            "info_link": "https://www.who.int/oral_health/en/"
+        },
+        {
+            "sex": "any",
+            "age_min": 18,
+            "age_max": 120,
+            "test": "Eye Examination",
+            "frequency": "every 2 years",
+            "info_link": "https://www.who.int/blindness/en/"
+        }
+    ]
+} 
